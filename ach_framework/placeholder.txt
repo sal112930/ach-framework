@@ -1,0 +1,27 @@
+"""
+ACH-Framework: Anomalous Cosmic Homogeneity detection package.
+"""
+
+import numpy as np
+import scipy.stats as stats
+
+def analyze_patches(cmb_map, n_patches=1000, patch_radius_deg=5.0, 
+                    thresholds={'H_min': 0.8525, 'P_max': 0.5664}, 
+                    use_empirical_calibration=True):
+    """
+    Função principal do seu pacote (baseada no seu artigo).
+    Adapte conforme sua implementação real.
+    """
+    # Esta é uma implementação de exemplo
+    # Substitua pelo seu código real do artigo
+    print(f"Analisando {n_patches} patches do mapa CMB...")
+    
+    # Exemplo: gerar resultados simulados
+    results = {
+        'H': np.random.normal(0.77, 0.11, n_patches),
+        'P': np.random.normal(0.64, 0.04, n_patches)
+    }
+    
+    return results
+
+# Nota: Adicione aqui todas as outras funções do seu pacote conforme seu artigo
